@@ -1,0 +1,28 @@
+{
+  "name": "electronic-book-demo",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "main": "index.js",
+  "scripts": {
+    "serve": "NODE_ENV=dev gitbook serve",
+    "build": "gitbook build ./ ./contac",
+    "deploy": "gitbook build ./ ./contac && node ./zz_deploy/deploy_web.js"
+  },
+  "author": "contac",
+  "license": "ISC",
+  "dependencies": {
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-code": "^0.1.0",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-flexible-alerts": "^1.0.3",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-sharing-plus": "0.0.2",
+    "gitbook-plugin-theme-lou": "^1.0.2"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "node-scp": "^0.0.22",
+    "ora": "5.1.0",
+    "sass": "^1.56.1"
+  }
+}

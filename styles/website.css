@@ -1,0 +1,133 @@
+@import '../assets/font.css';
+
+/* :root {
+    --H1Color: #126b40;
+    --H2Color: #126b40;
+    --H3Color: #126b40;
+    --H4Color: #126b40;
+    --H5Color: #126b40;
+    --H6Color: #126b40;
+}
+:root {
+    --ThemeColor: #717171;
+} */
+body {
+    font-size: 1.8rem;
+}
+
+/* Show keybindings to look like keys on a keyboard */
+kbd {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.1em 0.5em;
+    margin: 0 0.2em;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+    color: #000000;
+    background-color: #f7f7f7;
+}
+
+/* Over-ride maximum page width - default 800px
+ - if over-ridden then paging arrows can appear over text*/
+/* .book .book-body .page-wrapper .page-inner {
+    max-width: 80%;
+} */
+/* .book-summary {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: absolute;
+    top: 0;
+    left: -300px;
+    bottom: 0;
+    z-index: 1;
+    overflow-y: auto;
+    width: 350px;
+    padding: 40px;
+    color: #364149;
+    background: #fafafa;
+    border-right: 1px solid rgba(0,0,0,.07);
+    -webkit-transition: left 250ms ease;
+    -moz-transition: left 250ms ease;
+    -o-transition: left 250ms ease;
+    transition: left 250ms ease;
+} */
+.header-inner .logo {
+    float: left;
+    height: 60px;
+    width: 60px;
+    background-size: 60px 60px;
+}
+.book-header {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    overflow: visible;
+    height: 50px;
+    padding: 0 8px;
+    z-index: 2;
+    font-size: .85em;
+    color:  rgb(169, 169, 169);
+    background: 0 0;
+    background-color: #b0b0b0;;
+}
+.book-header .btn {
+    color: #fff;
+}
+/* .book .book-summary .exc-trigger {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+} */
+.header-inner .title {
+    float: left;
+    font-size: 58px;
+    line-height: 60px;
+    margin-left: 10px;
+    font-family: ZG;
+    color: #000;
+    -webkit-transform: scaleY(1.3);
+    transform: scaleY(1.3);
+}
+.image-wrapper {
+    text-align: center;
+    padding: 15px 0px;
+}
+.book-anchor {
+    width: 225px;
+    position: absolute;
+    top: 130px;
+    right: 15px;
+    padding: 0 10px 10px 10px;
+    z-index: 99;
+    user-select: none;
+    background-color: #e2e2e2;
+    border-left: 2px solid #ececec;
+}
+.book-anchor-title {
+    line-height: 38px;
+    font-weight: 460;
+    border-bottom: #777777 2px solid;
+    cursor: pointer;
+}
+.book-anchor-body {
+    max-height: 400px;
+    overflow: auto;
+}
+
+/* Place thin green boarder around code blocks & increase font size from 85% to 108% */
+/* .book .book-body .page-wrapper .page-inner section.normal .highlight pre, .book .book-body .page-wrapper .page-inner section.normal pre {
+    background-color: #f7f7f7;
+    border: 5px solid #D9EDF7;
+    border-radius: 3px;
+    font-size: 100%;
+    line-height: 1.45;
+    overflow: auto;
+    padding: 16px;
+} */
+
+/* red text for all non-language specific code sections & increased font size to 108% */
+/* .book .book-body .page-wrapper .page-inner section.normal code {
+    background-color: #f7f7f7;
+    color: green;
+    border-radius: 3px;
+    font-size: 100%;
+    margin: 0;
+    padding: 0.2em 0;
+} */
